@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style> 
+        	 
+        	 .bordering{
+					    
+					    border-top-style: solid;
+					    border-bottom-style:solid;
+					    border-left-style: none; 
+					    border-right-style:none;
+					    
+					  }
+					 　
+					 
+        	table {
+        		
+        		border-collapse: collapse;
+        		border:1px solid #808080;
+        	}
+        	th td{
+        		border:1px solid #808080;
+        	}
+        		/* 임의로준 클래스아이디 */
+        	 .line{text-align : center;}
+        	 .deco{text-decoration: underline;}
+        	 .blue {color: #0000ff;}
+        	 
+        	 th{background-color: #dddddddd;}
+        	 tbody>tr:hover{background-color: #ffff00;}
+        	 
+        </style>
+    </head>
+
+    <body>
+		<h1>mysite</h1>
+		<h2>개시판</h2>
+		<h2>일반 게시판</h2>
+        <h3>리스트</h3>
+        
+        <table class="bordering">
+	        <colgroup>
+		        <col style="width:50px">
+		        <col style="width:450px">
+		        <col style="width:100px">
+		        <col style="width:100px">
+		        <col style="width:100px">
+		        <col style="width:100px">
+	        </colgroup>
+        	<thead>
+        		<tr>
+        			<th>번호</th>
+        			<th>제목</th>
+        			<th>글쓴이</th>
+        			<th>조회수</th>
+        			<th>작성일</th>
+        			<th>관리</th>
+        		</tr>
+        	</thead>
+        	<tbody>
+        		<tr>
+        			<td class="line">123</td>
+        			<td class="deco line blue">게시판 게시글입니다.</td>
+        			<td class="line">정우성</td>
+        			<td class="line">1232</td>
+        			<td class="line">dddddddd</td>
+        			<td class="line">삭제</td>
+        		</tr>
+        		<tr>
+        			<td class="line">123</td>
+        			<td class="deco line blue">게시판 게시글입니다.</td>
+        			<td class="line">정우성</td>
+        			<td class="line">1232</td>
+        			<td class="line">dddddddd</td>
+        			<td class="line">삭제</td>
+        		</tr>
+        		<tr>
+        			<td class="line">123</td>
+        			<td class="deco line blue">게시판 게시글입니다.</td>
+        			<td class="line">정우성</td>
+        			<td class="line">1232</td>
+        			<td class="line">dddddddd</td>
+        			<td class="line">삭제</td>
+        		</tr>
+        		<tr>
+        			<td class="line">123</td>
+        			<td class="deco line blue">게시판 게시글입니다.</td>
+        			<td class="line">정우성</td>
+        			<td class="line">1232</td>
+        			<td class="line">dddddddd</td>
+        			<td class="line">삭제</td>
+        		</tr>
+        		<tr>
+        			<td class="line">123</td>
+        			<td class="deco line blue">게시판 게시글입니다.</td>
+        			<td class="line">정우성</td>
+        			<td class="line">1232</td>
+        			<td class="line">dddddddd</td>
+        			<td class="line">삭제</td>
+        		</tr>
+        	</tbody>
+        
+        </table>
+
+    </body>
+
+</html>
