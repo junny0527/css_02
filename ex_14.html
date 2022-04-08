@@ -7,11 +7,22 @@
         <!-- 스타일시트자리 -->
         <style>
         	li{
-        		/*  border:1px solid #000000; */
+        		 border-right:1px solid #000000;
         		list-style-type: none;        		
-        		 padding:0px 20px 0px 0px;
+        		background-image: url("./img/star.jpg");
+        		background-repeat: no-repeat;
+        		background-size: 11px 11px;
+        		background-position: left center;
+        		
+        		padding:0px 20px 0px 11px;
+        		margin: 0px 20px 0px 0px;
+        		
+        		border-right: 1px solid #000000;
         		float:left;
         	 	/* margin: 0px 0px 0px 0px;  */
+        	}
+        	li.last{
+        		border-right: none;
         	}
         	
         </style>
@@ -24,7 +35,7 @@
 			<li>메뉴2</li>
 			<li>메뉴3</li>
 			<li>메뉴4</li>
-			<li>메뉴5</li>
+			<li class="last">메뉴5</li>
 			
 
 		</ol>
